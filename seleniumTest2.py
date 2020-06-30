@@ -1,6 +1,10 @@
+from selenium.common.exceptions import ElementNotVisibleException, ElementNotSelectableException
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import os
 
@@ -65,25 +69,47 @@ def writeToHTML(filename, contents):
     return
 
 
-url = 'http://www.dbzcollection.fr/v2/cartes.php?idc=18'
-base_url = 'http://www.dbzcollection.fr/v2/'
+def getImg(link):
+    imgs = link.find_all('div', {'class': 'col image'})
+    imglink = imgs[0].find('img').get('src')
+    return imglink
+
+
+def getText(link):
+    elements = link.find_all('div', {'class': 'col details'})
+    imgText = [items.getText() for items in elements[0].find_all('span')]
+    return imgText
+
+
+def getTitle(link):
+    imgTitle = link.findAll('span', {'class': 'title'})[0].getText()
+    return imgTitle
+
+
+url = 'https://fftcg.square-enix-games.com/en/card-browser'
+base_url = 'https://fftcg.square-enix-games.com/en/'
 
 # get web driver
-webdriver = getdriver(headless=False)
-webdriver.get(url)
+driver = getdriver(headless=False)
+driver.get(url)
+
+# wait for the page to load
+# find and click the search button
+submit_button = WebDriverWait(driver, 20).until(
+    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[1]/div[3]/button')))
+submit_button.click()
+
+# find and click on the first element
+firstelement_button = WebDriverWait(driver, 20).until(
+    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[3]/div[2]')))
+firstelement_button.click()
 
 # cook soup with driver
-# search for all <div class="bloc_capsule"> then search for all <a href> links
-report_level1 = cooksoup_level1(webdriver, firstSearchTag='div', firstSearchClass='bloc_capsule', thenSerach='a', thenGet='href')
+soup_level1 = BeautifulSoup(driver.page_source, 'html.parser')
+img = soup_level1.find_all('div', {'class': 'col image'})
+imglink = getImgURL(img)
 
-for each_link in report_level1:
-    # Load a page
-    webdriver.get(each_link)
-    report_level2 = cooksoup_level1(webdriver, firstSearchTag='td', firstSearchClass='cadre_carte1', thenSerach='img', thenGet='src')
-
-# table = soup.find(lambda tag: tag.name=='table' and tag.find(lambda ttag: ttag.name=='th' and ttag.text=='Common Name'))
-
-# table = soup_levelxx.find_all('table', class_='table_carte', attrs='img')
+print(imglink)
 
 # end the Selenium browser session
-webdriver.quit()
+driver.quit()
