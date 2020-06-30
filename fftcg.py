@@ -144,7 +144,7 @@ next_button = WebDriverWait(driver, 10).until(
 first_page = BeautifulSoup(driver.page_source, 'html.parser')
 num_cards = int(getTotalCards(first_page))
 
-for i in range(10):
+for i in range(num_cards):
     # cook soup with driver
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     print(getTitle(soup) + " " + getText(soup)['Code'])
