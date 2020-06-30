@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+import time
 import os
 
 
@@ -64,7 +65,7 @@ def driverCloseTab(soupdriver):
 
 
 def writeToHTML(filename, contents):
-    with open(filename+".html", "w") as file:
+    with open(filename + ".html", "w") as file:
         file.write(str(contents))
     return
 
@@ -76,14 +77,38 @@ def getImg(link):
 
 
 def getText(link):
+    card_dict = {}
+
+    # find where the card details are stored, under class 'col details'
     elements = link.find_all('div', {'class': 'col details'})
-    imgText = [items.getText() for items in elements[0].find_all('span')]
-    return imgText
+
+    # elements datatype is ResultSet, must use elements[0] to use the find method
+    # find all span tags with class 'items
+    # for each item, get text and split them with the ':' and store it in a list
+    img_text = [item.getText().split(':') for item in elements[0].find_all('span', {'class': 'item'})]
+
+    # convert list to dictionary
+    for i in img_text:
+        card_dict.update({i[0]: i[1]})
+
+    # find all 'class with name starting with 'icon'
+    eletype = elements[0].findAll("span", {"class": lambda L: L and L.startswith('icon ')})
+
+    # eletype is a dictionary, simply get the 'class' and element [1]
+    card_dict['Element'] = eletype[0].get('class')[1]
+    return card_dict
 
 
 def getTitle(link):
-    imgTitle = link.findAll('span', {'class': 'title'})[0].getText()
-    return imgTitle
+    img_title = link.findAll('span', {'class': 'title'})[0].getText()
+    return img_title
+
+
+def getTotalCards(link):
+    total_cards = link.findAll('span', {'class': 'num'})[0].getText()
+    # split text by "/"
+    total_cards = total_cards.split('/')[1]
+    return total_cards
 
 
 url = 'https://fftcg.square-enix-games.com/en/card-browser'
@@ -92,24 +117,38 @@ base_url = 'https://fftcg.square-enix-games.com/en/'
 # get web driver
 driver = getdriver(headless=False)
 driver.get(url)
+driver.maximize_window()
 
 # wait for the page to load
 # find and click the search button
-submit_button = WebDriverWait(driver, 20).until(
-    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[1]/div[3]/button')))
+# <button type="submit" class="noselect search-btn"><span class="icon fas fa-search"></span>Search</button>
+# //*[@id="browser"]/div[1]/div[3]/button
+# <span class="icon fas fa-search"></span>
+submit_button = WebDriverWait(driver, 10).until(
+    EC.element_to_be_clickable((By.XPATH, '//button[@type="submit"]/span[@class="icon fas fa-search"]')))
+time.sleep(3)
+
+# submit_button = driver.find_element_by_xpath('//button[@type="submit"]/span[@class="icon fas fa-search"]')
 submit_button.click()
 
+time.sleep(5)
 # find and click on the first element
-firstelement_button = WebDriverWait(driver, 20).until(
+firstelement_button = WebDriverWait(driver, 10).until(
     EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[3]/div[2]')))
+# driver.implicitly_wait(10)
 firstelement_button.click()
 
-# cook soup with driver
-soup_level1 = BeautifulSoup(driver.page_source, 'html.parser')
-img = soup_level1.find_all('div', {'class': 'col image'})
-imglink = getImgURL(img)
+next_button = WebDriverWait(driver, 10).until(
+    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[4]/div[1]/span[3]')))
 
-print(imglink)
+first_page = BeautifulSoup(driver.page_source, 'html.parser')
+num_cards = int(getTotalCards(first_page))
+
+for i in range(10):
+    # cook soup with driver
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    print(getTitle(soup) + " " + getText(soup)['Code'])
+    next_button.click()
 
 # end the Selenium browser session
 driver.quit()
