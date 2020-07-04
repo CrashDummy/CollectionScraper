@@ -5,6 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException
 from bs4 import BeautifulSoup
 import time
 import os
@@ -19,35 +20,6 @@ def getdriver(headless=True):
     else:
         driver = Chrome(executable_path='/opt/WebDriver/bin/chromedriver')
     return driver
-
-
-def cooksoup_level1(driver, firstSearchTag, firstSearchClass, thenSerach, thenGet):
-    report = []
-
-    # Selenium hands the page source to Beautiful Soup (type = BeautifulSoup)
-    soup_level1 = BeautifulSoup(driver.page_source, 'html.parser')
-
-    # find all matching key items (type = ResultSet, iterable)
-    soup_level2 = soup_level1.find_all(firstSearchTag, {'class': firstSearchClass})
-    # results = soup_level1.find_all(class_='bloc_capsule')
-
-    # iterate through ResultSet and find tag "a"
-    for soup_level3 in soup_level2:
-        soup_level4 = soup_level3.find(thenSerach)
-
-        # shall there are results of the find, store it in the report
-        if soup_level4 is not None:
-            result = soup_level4.get(thenGet)
-            # append report list
-            report.append(result)
-
-    # add base_url in front of each string
-    report = [base_url + ele for ele in report]
-
-    # print report
-    print(report)
-
-    return report
 
 
 def driverOpenTab(soupdriver):
@@ -70,13 +42,13 @@ def writeToHTML(filename, contents):
     return
 
 
-def getImg(link):
+def getCardImg(link):
     imgs = link.find_all('div', {'class': 'col image'})
     imglink = imgs[0].find('img').get('src')
     return imglink
 
 
-def getText(link):
+def getCardText(link):
     card_dict = {}
 
     # find where the card details are stored, under class 'col details'
@@ -99,7 +71,7 @@ def getText(link):
     return card_dict
 
 
-def getTitle(link):
+def getCardTitle(link):
     img_title = link.findAll('span', {'class': 'title'})[0].getText()
     return img_title
 
@@ -111,46 +83,100 @@ def getTotalCards(link):
     return total_cards
 
 
+def clickXPath_fast(driver, xpath):
+    button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, xpath)))
+    try:
+        button.click()
+    except StaleElementReferenceException as Exception:
+        print('StaleElementReferenceException while trying click the button' + xpath + ', trying to find element again')
+        button = driver.find_element_by_xpath(xpath)
+        button.click()
+    return button
+
+
+def clickXPath(driver, xpath):
+    print('sleep 5 before searching')
+    time.sleep(5)
+    button = driver.find_element_by_xpath(xpath)
+    try:
+        print('clicking button ' + xpath)
+        button.click()
+
+    except NoSuchElementException or StaleElementReferenceException as ex:
+        print('Exception ' + str(ex) + ' while trying click the button' + xpath + ', trying to find element again')
+        button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, xpath)))
+
+        ignored_exceptions = (NoSuchElementException, StaleElementReferenceException,)
+        button = WebDriverWait(driver, 10, ignored_exceptions=ignored_exceptions) \
+            .until(EC.presence_of_element_located((By.XPATH, xpath)))
+        button.click()
+    except TimeoutException as ex:
+        print('Exception ' + str(ex) + ' while trying click the button' + xpath + ', trying to find element again')
+        driver.quit()
+        exit()
+
+    return button
+
+
 url = 'https://fftcg.square-enix-games.com/en/card-browser'
 base_url = 'https://fftcg.square-enix-games.com/en/'
 
 # get web driver
-driver = getdriver(headless=False)
-driver.get(url)
-driver.maximize_window()
+driver = getdriver(headless=True)
 
+print('getting url')
+driver.get(url)
+print('max window')
+driver.maximize_window()
 # wait for the page to load
 # find and click the search button
 # <button type="submit" class="noselect search-btn"><span class="icon fas fa-search"></span>Search</button>
 # //*[@id="browser"]/div[1]/div[3]/button
 # <span class="icon fas fa-search"></span>
-submit_button = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, '//button[@type="submit"]/span[@class="icon fas fa-search"]')))
-#time.sleep(3)
-
+# submit_button = WebDriverWait(driver, 10).until(
+#    EC.element_to_be_clickable((By.XPATH, '//button[@type="submit"]/span[@class="icon fas fa-search"]')))
 # submit_button = driver.find_element_by_xpath('//button[@type="submit"]/span[@class="icon fas fa-search"]')
-submit_button.click()
+# submit_button.click()
 
-#time.sleep(5)
+print('seting up search button')
+submit_button_xpath = '//button[@type="submit"]/span[@class="icon fas fa-search"]'
+submit_button = clickXPath(driver, submit_button_xpath)
+
 # find and click on the first element
-firstelement_button = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[3]/div[2]')))
+# firstelement_button = WebDriverWait(driver, 10).until(
+#    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[3]/div[2]')))
 # driver.implicitly_wait(10)
-firstelement_button.click()
+# firstelement_button.click()
 
-next_button = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[4]/div[1]/span[3]')))
+print('seting up first element button')
+firstelement_button_xpath = '//*[@id="browser"]/div[3]/div[2]'
+firstelement_button = clickXPath(driver, firstelement_button_xpath)
 
-first_page = BeautifulSoup(driver.page_source, 'html.parser')
-num_cards = int(getTotalCards(first_page))
+# find the next button
+# next_button = WebDriverWait(driver, 10).until(
+#    EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[4]/div[1]/span[3]')))
+
+print('seting up next button')
+next_button_xpath = '//*[@id="browser"]/div[4]/div[1]/span[3]'
+
+# this is the first card's page
+card_page = BeautifulSoup(driver.page_source, 'html.parser')
+num_cards = int(getTotalCards(card_page))
+card_list = {}
 
 for i in range(num_cards):
     # cook soup with driver
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    print(getTitle(soup) + " " + getText(soup)['Code'])
+    card_list['Title'] = getCardTitle(soup)
+    card_list['Image']= getCardImg(soup)
+    card_list.update(getCardText(soup))
 
+    # print(getCardTitle(soup) + " " + getCardText(soup)['Code'])
+    print(card_list['Title'], card_list['Code'])
     # click for next card
-    next_button.click()
+    next_button = clickXPath_fast(driver, next_button_xpath)
 
 # end the Selenium browser session
 driver.quit()
