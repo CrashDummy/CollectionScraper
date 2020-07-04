@@ -126,12 +126,12 @@ driver.maximize_window()
 # <span class="icon fas fa-search"></span>
 submit_button = WebDriverWait(driver, 10).until(
     EC.element_to_be_clickable((By.XPATH, '//button[@type="submit"]/span[@class="icon fas fa-search"]')))
-time.sleep(3)
+#time.sleep(3)
 
 # submit_button = driver.find_element_by_xpath('//button[@type="submit"]/span[@class="icon fas fa-search"]')
 submit_button.click()
 
-time.sleep(5)
+#time.sleep(5)
 # find and click on the first element
 firstelement_button = WebDriverWait(driver, 10).until(
     EC.element_to_be_clickable((By.XPATH, '//*[@id="browser"]/div[3]/div[2]')))
@@ -148,6 +148,8 @@ for i in range(num_cards):
     # cook soup with driver
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     print(getTitle(soup) + " " + getText(soup)['Code'])
+
+    # click for next card
     next_button.click()
 
 # end the Selenium browser session
