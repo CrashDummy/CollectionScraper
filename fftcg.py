@@ -15,6 +15,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def getdriver(headless=True):
+    # Setup chrome browser for selenium
     driverpath = '/opt/WebDriver/bin/chromedriver'
 
     if headless:
@@ -42,18 +43,21 @@ def driverCloseTab(soupdriver):
 
 
 def writeToHTML(filename, contents):
+    # helper function, dump broswer's current html content to file
     with open(filename + ".html", "w") as file:
         file.write(str(contents))
     return
 
 
 def getCardImg(link):
+    # fftcg page specific - find image function
     imgs = link.find_all('div', {'class': 'col image'})
     imglink = imgs[0].find('img').get('src')
     return imglink
 
 
 def getCardText(link):
+    # fftcg page specific - find text function
     card_dict = {}
 
     # find where the card details are stored, under class 'col details'
@@ -77,11 +81,13 @@ def getCardText(link):
 
 
 def getCardTitle(link):
+    # fftcg page specific - find card title function
     img_title = link.findAll('span', {'class': 'title'})[0].getText()
     return img_title
 
 
 def getTotalCards(link):
+    # fftcg page specific - find title function
     total_cards = link.findAll('span', {'class': 'num'})[0].getText()
     # split text by "/"
     total_cards = total_cards.split('/')[1]
@@ -89,6 +95,7 @@ def getTotalCards(link):
 
 
 def clickXPath_fast(driver, xpath):
+    # click on an element on a website, without delay
     button = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.XPATH, xpath)))
     try:
@@ -102,6 +109,7 @@ def clickXPath_fast(driver, xpath):
 
 
 def clickXPath(driver, xpath):
+    # click on an element on a website, with delay
     logging.info('sleep 5 before searching')
     time.sleep(5)
     button = driver.find_element_by_xpath(xpath)
@@ -128,6 +136,7 @@ def clickXPath(driver, xpath):
     return button
 
 
+# setting up level of debugging; will print in console
 logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
 url = 'https://fftcg.square-enix-games.com/en/card-browser'
@@ -160,7 +169,6 @@ next_button_xpath = '//*[@id="browser"]/div[4]/div[1]/span[3]'
 card_page = BeautifulSoup(driver.page_source, 'html.parser')
 num_cards = int(getTotalCards(card_page))
 card_list = []
-
 
 for i in range(num_cards):
     # cook soup with driver
@@ -195,7 +203,6 @@ try:
             writer.writerow(each_card)
 except IOError:
     logging.error("I/O error")
-
 
 # end the Selenium browser session
 driver.quit()

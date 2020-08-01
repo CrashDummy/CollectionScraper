@@ -60,7 +60,7 @@ def driverCloseTab(soupdriver):
 
 
 def writeToHTML(filename, contents):
-    with open(filename+".html", "w") as file:
+    with open(filename + ".html", "w") as file:
         file.write(str(contents))
     return
 
@@ -74,12 +74,14 @@ webdriver.get(url)
 
 # cook soup with driver
 # search for all <div class="bloc_capsule"> then search for all <a href> links
-report_level1 = cooksoup_level1(webdriver, firstSearchTag='div', firstSearchClass='bloc_capsule', thenSerach='a', thenGet='href')
+report_level1 = cooksoup_level1(webdriver, firstSearchTag='div', firstSearchClass='bloc_capsule', thenSerach='a',
+                                thenGet='href')
 
 for each_link in report_level1:
     # Load a page
     webdriver.get(each_link)
-    report_level2 = cooksoup_level1(webdriver, firstSearchTag='td', firstSearchClass='cadre_carte1', thenSerach='img', thenGet='src')
+    report_level2 = cooksoup_level1(webdriver, firstSearchTag='td', firstSearchClass='cadre_carte1', thenSerach='img',
+                                    thenGet='src')
 
 # table = soup.find(lambda tag: tag.name=='table' and tag.find(lambda ttag: ttag.name=='th' and ttag.text=='Common Name'))
 
