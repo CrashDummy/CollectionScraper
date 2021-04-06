@@ -5,7 +5,8 @@ import csv
 import copy
 
 from bs4 import BeautifulSoup
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException, \
+    ElementClickInterceptedException
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -22,6 +23,7 @@ def getdriver(headless=True):
         opts = Options()
         opts.headless = True
         assert opts.headless  # Operating in headless mode
+        opts.add_argument("--start-maximized")  # max windows
         driver = Chrome(options=opts, executable_path=driverpath)
     else:
         driver = Chrome(executable_path=driverpath)
@@ -131,6 +133,11 @@ def clickXPath(driver, xpath):
         logging.debug('Exception ' + str(ex) + ' while trying click the button' + xpath +
                       ', trying to find element again')
         driver.quit()
+
+    except ElementClickInterceptedException as ex:
+        logging.debug('Exception ' + str(ex) + ' while trying click the button' + xpath +
+                      ', element not clickable')
+        driver.quit()
         exit()
 
     return button
@@ -143,7 +150,7 @@ url = 'https://fftcg.square-enix-games.com/en/card-browser'
 base_url = 'https://fftcg.square-enix-games.com/en/'
 
 # get web driver
-driver = getdriver(headless=True)
+driver = getdriver(headless=False)
 
 logging.info('getting url')
 driver.get(url)
@@ -153,11 +160,13 @@ driver.maximize_window()
 # find and click the search button
 
 logging.info('setting up search button')
-submit_button_xpath = '//button[@type="submit"]/span[@class="icon fas fa-search"]'
+# TODO Implement auto find xpath for search button
+submit_button_xpath = '//*[@id="browser"]/div[1]/div[3]/button' #'//button[@type="submit"]/span[@class="icon fas fa-search"]'
 submit_button = clickXPath(driver, submit_button_xpath)
 
 # find and click on the first element
 logging.info('setting up first element button')
+#time.sleep(1.0)
 firstelement_button_xpath = '//*[@id="browser"]/div[3]/div[2]'
 firstelement_button = clickXPath(driver, firstelement_button_xpath)
 
@@ -181,7 +190,7 @@ for i in range(num_cards):
     card['Image_thumb'] = card['Image_full'].replace('full', 'thumb')
     card.update(getCardText(soup))
 
-    # copy dictionary by value (default is by reference)
+    # copy dictionary by value using copy.deepcopy (default is by reference)
     card_list.append(copy.deepcopy(card))
 
     # print(getCardTitle(soup) + " " + getCardText(soup)['Code'])
@@ -192,8 +201,10 @@ for i in range(num_cards):
     time.sleep(0.5)
 
 # write data to csv file
-csv_columns = ['Title', 'Image_full', 'Image_thumb', 'Type', 'Job', 'Element', 'Cost', 'Rarity', 'Power', 'Category',
-               'Set', 'Code']
+
+# use dictionary keys as csv header
+csv_columns = list(card)
+
 csv_file = "ff_card_list.csv"
 try:
     with open(csv_file, 'w') as csvfile:
