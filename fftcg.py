@@ -5,7 +5,8 @@ import csv
 import copy
 
 from bs4 import BeautifulSoup
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException, \
+    ElementClickInterceptedException
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -15,12 +16,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def getdriver(headless=True):
+    # Setup chrome browser for selenium
     driverpath = '/opt/WebDriver/bin/chromedriver'
 
     if headless:
         opts = Options()
         opts.headless = True
         assert opts.headless  # Operating in headless mode
+        opts.add_argument("--start-maximized")  # max windows
         driver = Chrome(options=opts, executable_path=driverpath)
     else:
         driver = Chrome(executable_path=driverpath)
@@ -42,18 +45,21 @@ def driverCloseTab(soupdriver):
 
 
 def writeToHTML(filename, contents):
+    # helper function, dump broswer's current html content to file
     with open(filename + ".html", "w") as file:
         file.write(str(contents))
     return
 
 
 def getCardImg(link):
+    # fftcg page specific - find image function
     imgs = link.find_all('div', {'class': 'col image'})
     imglink = imgs[0].find('img').get('src')
     return imglink
 
 
 def getCardText(link):
+    # fftcg page specific - find text function
     card_dict = {}
 
     # find where the card details are stored, under class 'col details'
@@ -77,11 +83,13 @@ def getCardText(link):
 
 
 def getCardTitle(link):
+    # fftcg page specific - find card title function
     img_title = link.findAll('span', {'class': 'title'})[0].getText()
     return img_title
 
 
 def getTotalCards(link):
+    # fftcg page specific - find title function
     total_cards = link.findAll('span', {'class': 'num'})[0].getText()
     # split text by "/"
     total_cards = total_cards.split('/')[1]
@@ -89,6 +97,7 @@ def getTotalCards(link):
 
 
 def clickXPath_fast(driver, xpath):
+    # click on an element on a website, without delay
     button = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.XPATH, xpath)))
     try:
@@ -102,6 +111,7 @@ def clickXPath_fast(driver, xpath):
 
 
 def clickXPath(driver, xpath):
+    # click on an element on a website, with delay
     logging.info('sleep 5 before searching')
     time.sleep(5)
     button = driver.find_element_by_xpath(xpath)
@@ -123,18 +133,24 @@ def clickXPath(driver, xpath):
         logging.debug('Exception ' + str(ex) + ' while trying click the button' + xpath +
                       ', trying to find element again')
         driver.quit()
+
+    except ElementClickInterceptedException as ex:
+        logging.debug('Exception ' + str(ex) + ' while trying click the button' + xpath +
+                      ', element not clickable')
+        driver.quit()
         exit()
 
     return button
 
 
+# setting up level of debugging; will print in console
 logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
 url = 'https://fftcg.square-enix-games.com/en/card-browser'
 base_url = 'https://fftcg.square-enix-games.com/en/'
 
 # get web driver
-driver = getdriver(headless=True)
+driver = getdriver(headless=False)
 
 logging.info('getting url')
 driver.get(url)
@@ -144,11 +160,13 @@ driver.maximize_window()
 # find and click the search button
 
 logging.info('setting up search button')
-submit_button_xpath = '//button[@type="submit"]/span[@class="icon fas fa-search"]'
+# TODO Implement auto find xpath for search button
+submit_button_xpath = '//*[@id="browser"]/div[1]/div[3]/button' #'//button[@type="submit"]/span[@class="icon fas fa-search"]'
 submit_button = clickXPath(driver, submit_button_xpath)
 
 # find and click on the first element
 logging.info('setting up first element button')
+#time.sleep(1.0)
 firstelement_button_xpath = '//*[@id="browser"]/div[3]/div[2]'
 firstelement_button = clickXPath(driver, firstelement_button_xpath)
 
@@ -161,7 +179,6 @@ card_page = BeautifulSoup(driver.page_source, 'html.parser')
 num_cards = int(getTotalCards(card_page))
 card_list = []
 
-
 for i in range(num_cards):
     # cook soup with driver
     soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -173,7 +190,7 @@ for i in range(num_cards):
     card['Image_thumb'] = card['Image_full'].replace('full', 'thumb')
     card.update(getCardText(soup))
 
-    # copy dictionary by value (default is by reference)
+    # copy dictionary by value using copy.deepcopy (default is by reference)
     card_list.append(copy.deepcopy(card))
 
     # print(getCardTitle(soup) + " " + getCardText(soup)['Code'])
@@ -184,8 +201,10 @@ for i in range(num_cards):
     time.sleep(0.5)
 
 # write data to csv file
-csv_columns = ['Title', 'Image_full', 'Image_thumb', 'Type', 'Job', 'Element', 'Cost', 'Rarity', 'Power', 'Category',
-               'Set', 'Code']
+
+# use dictionary keys as csv header
+csv_columns = list(card)
+
 csv_file = "ff_card_list.csv"
 try:
     with open(csv_file, 'w') as csvfile:
@@ -195,7 +214,6 @@ try:
             writer.writerow(each_card)
 except IOError:
     logging.error("I/O error")
-
 
 # end the Selenium browser session
 driver.quit()
