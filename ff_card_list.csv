@@ -1,4 +1,31 @@
-Title,Image_full,Image_thumb,Type,Job,Element,Cost,Rarity,Power,Category,Set,Code
+Title,Image_full,Image_thumb,Type,Job,Element,Cost,Serial Type,Power,Category,Set,Code
+Chaos,https://fftcg.cdn.sewest.net/images/cards/full/B-001_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-001_eg.jpg, Backup, God of Chaos,dark, 2, B, , DFF · I, Boss Deck Chaos, B-001
+Spiritus,https://fftcg.cdn.sewest.net/images/cards/full/B-002_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-002_eg.jpg, Backup, God,dark, 4, B, , DFF, Boss Deck Chaos, B-002
+Garland,https://fftcg.cdn.sewest.net/images/cards/full/B-003_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-003_eg.jpg, Forward, Knight,fire, 5, B, 10000, DFF · I, Boss Deck Chaos, B-003
+Zenos,https://fftcg.cdn.sewest.net/images/cards/full/B-004_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-004_eg.jpg, Forward, General,exburst, 4, B, 10000, XIV, Boss Deck Chaos, B-004
+Nael,https://fftcg.cdn.sewest.net/images/cards/full/B-005_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-005_eg.jpg, Forward, General,exburst, 6, B, 9000, XIV, Boss Deck Chaos, B-005
+Orphan,https://fftcg.cdn.sewest.net/images/cards/full/B-006_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-006_eg.jpg, Forward, Fal'Cie,exburst, 6, B, 9000, XIII, Boss Deck Chaos, B-006
+Shadow Lord,https://fftcg.cdn.sewest.net/images/cards/full/B-007_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-007_eg.jpg, Forward, Kindred,earth, 2, B, 9000, XI, Boss Deck Chaos, B-007
+Golbez,https://fftcg.cdn.sewest.net/images/cards/full/B-008_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-008_eg.jpg, Forward, Warlock,exburst, 8, B, 9000, DFF · IV, Boss Deck Chaos, B-008
+Garland,https://fftcg.cdn.sewest.net/images/cards/full/B-009_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-009_eg.jpg, Forward, Knight,lightning, 3, B, 9000, DFF · I, Boss Deck Chaos, B-009
+Feral Chaos,https://fftcg.cdn.sewest.net/images/cards/full/B-010_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-010_eg.jpg, Forward, Utter Pandemonium,dark, 5, B, 10000, DFF · I, Boss Deck Chaos, B-010
+Sin,https://fftcg.cdn.sewest.net/images/cards/full/B-011_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-011_eg.jpg, Forward, Final Aeon,ability, 9, B, 9000, X, Boss Deck Chaos, B-011
+Cloud of Darkness,https://fftcg.cdn.sewest.net/images/cards/full/B-012_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-012_eg.jpg, Forward, Wraith,dark, 3, B, 7000, DFF · III, Boss Deck Chaos, B-012
+The Emperor,https://fftcg.cdn.sewest.net/images/cards/full/B-013_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-013_eg.jpg, Backup, Emperor,exburst, 2, B, , DFF · II, Boss Deck Chaos, B-013
+Kefka,https://fftcg.cdn.sewest.net/images/cards/full/B-014_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-014_eg.jpg, Backup, Mage,down, 4, B, , DFF · VI, Boss Deck Chaos, B-014
+Seymour,https://fftcg.cdn.sewest.net/images/cards/full/B-015_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-015_eg.jpg, Backup, Summoner,exburst, 4, B, , X, Boss Deck Chaos, B-015
+Ultimecia,https://fftcg.cdn.sewest.net/images/cards/full/B-016_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-016_eg.jpg, Backup, Witch,down, 4, B, , DFF · VIII, Boss Deck Chaos, B-016
+Ifrit,https://fftcg.cdn.sewest.net/images/cards/full/B-017_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-017_eg.jpg, Summon, ,exburst, 1, B, , FFT, Boss Deck Chaos, B-017
+Diabolos,https://fftcg.cdn.sewest.net/images/cards/full/B-018_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-018_eg.jpg, Summon, ,wind, 5, B, , MOBIUS, Boss Deck Chaos, B-018
+Odin,https://fftcg.cdn.sewest.net/images/cards/full/B-019_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-019_eg.jpg, Summon, ,exburst, 7, B, , FFT, Boss Deck Chaos, B-019
+Leviathan,https://fftcg.cdn.sewest.net/images/cards/full/B-020_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-020_eg.jpg, Summon, ,exburst, 3, B, , FFT, Boss Deck Chaos, B-020
+"Zodiark, Keeper of Precepts",https://fftcg.cdn.sewest.net/images/cards/full/B-021_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-021_eg.jpg, Summon,  ,dark, 7, B, , XII, Boss Deck Chaos, B-021
+Vayne,https://fftcg.cdn.sewest.net/images/cards/full/B-022_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-022_eg.jpg, Forward, Consul,ability, 4, B, 8000, XII, Boss Deck Chaos, B-022
+Kuja,https://fftcg.cdn.sewest.net/images/cards/full/B-023_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-023_eg.jpg, Forward, Genome,exburst, 5, B, 9000, DFF · IX, Boss Deck Chaos, B-023
+Ardyn,https://fftcg.cdn.sewest.net/images/cards/full/B-024_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-024_eg.jpg, Forward, Chief Minister,exburst, 5, B, 9000, XV, Boss Deck Chaos, B-024
+Galdes,https://fftcg.cdn.sewest.net/images/cards/full/B-025_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-025_eg.jpg, Forward, Archbishop,dark, 3, B, 8000, FFCC, Boss Deck Chaos, B-025
+Exdeath,https://fftcg.cdn.sewest.net/images/cards/full/B-026_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-026_eg.jpg, Backup, Wizard,lightning, 6, B, , DFF · V, Boss Deck Chaos, B-026
+"Zalera, the Death Seraph",https://fftcg.cdn.sewest.net/images/cards/full/B-027_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/B-027_eg.jpg, Summon, ,exburst, 4, B, , XII, Boss Deck Chaos, B-027
 Auron,https://fftcg.cdn.sewest.net/images/cards/full/1-001H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/1-001H_eg.jpg, Forward, Guardian,fire, 6, H, 9000, X, Opus I, 1-001H
 Auron,https://fftcg.cdn.sewest.net/images/cards/full/1-002R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/1-002R_eg.jpg, Forward, Guardian,fire, 5, R, 9000, X, Opus I, 1-002R
 Red Mage,https://fftcg.cdn.sewest.net/images/cards/full/1-003C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/1-003C_eg.jpg, Backup, Standard Unit,fire, 2, C, , III, Opus I, 1-003C
@@ -1660,3 +1687,272 @@ Azul,https://fftcg.cdn.sewest.net/images/cards/full/11-137S_eg.jpg,https://fftcg
 Sephiroth,https://fftcg.cdn.sewest.net/images/cards/full/11-138S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/11-138S_eg.jpg, Forward, SOLDIER,lightning, 3, S, 9000, VII, Opus XI, 11-138S
 Aerith,https://fftcg.cdn.sewest.net/images/cards/full/11-139S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/11-139S_eg.jpg, Forward, Ancient,num, 4, S, 5000, VII, Opus XI, 11-139S
 Kadaj,https://fftcg.cdn.sewest.net/images/cards/full/11-140S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/11-140S_eg.jpg, Forward, Remnant,exburst, 4, S, 9000, VII, Opus XI, 11-140S
+Aigis,https://fftcg.cdn.sewest.net/images/cards/full/12-001R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-001R_eg.jpg, Forward, Warrior of Light,fire, 5, R, 9000, FFL, Opus XII, 12-001R
+Amaterasu,https://fftcg.cdn.sewest.net/images/cards/full/12-002H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-002H_eg.jpg, Summon, ,fire, 3, H, , FFEX, Opus XII, 12-002H
+Alisaie,https://fftcg.cdn.sewest.net/images/cards/full/12-003R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-003R_eg.jpg, Forward, Scion of the Seventh Dawn,fire, 3, R, 7000, XIV, Opus XII, 12-003R
+Alphinaud,https://fftcg.cdn.sewest.net/images/cards/full/12-004R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-004R_eg.jpg, Forward, Scion of the Seventh Dawn,fire, 3, R, 7000, XIV, Opus XII, 12-004R
+Ifrit,https://fftcg.cdn.sewest.net/images/cards/full/12-005C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-005C_eg.jpg, Summon, ,exburst, 5, C, , FFEX, Opus XII, 12-005C
+Ogre,https://fftcg.cdn.sewest.net/images/cards/full/12-006C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-006C_eg.jpg, Monster, Ogre,fire, 4, C, 8000, IX, Opus XII, 12-006C
+Black Mage,https://fftcg.cdn.sewest.net/images/cards/full/12-007C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-007C_eg.jpg, Backup, Standard Unit,fire, 2, C, , XIV, Opus XII, 12-007C
+Princess Goblin,https://fftcg.cdn.sewest.net/images/cards/full/12-008R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-008R_eg.jpg, Backup, Goblin,fire, 2, R, , WOFF, Opus XII, 12-008R
+Samurai,https://fftcg.cdn.sewest.net/images/cards/full/12-009C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-009C_eg.jpg, Backup, Standard Unit,fire, 2, C, , XIV, Opus XII, 12-009C
+Warrior,https://fftcg.cdn.sewest.net/images/cards/full/12-010C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-010C_eg.jpg, Forward, Standard Unit,fire, 3, C, 7000, XIV, Opus XII, 12-010C
+Sol,https://fftcg.cdn.sewest.net/images/cards/full/12-011C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-011C_eg.jpg, Forward, Warrior of Light,fire, 1, C, 2000, FFL, Opus XII, 12-011C
+Tenzen,https://fftcg.cdn.sewest.net/images/cards/full/12-012L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-012L_eg.jpg, Forward, Samurai,fire, 6, L, 9000, XI, Opus XII, 12-012L
+Ninja,https://fftcg.cdn.sewest.net/images/cards/full/12-013C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-013C_eg.jpg, Backup, Standard Unit,fire, 2, C, , Special, Opus XII, 12-013C
+Bahamut,https://fftcg.cdn.sewest.net/images/cards/full/12-014R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-014R_eg.jpg, Forward, Bahamut,ability, 3, R, 7000, X, Opus XII, 12-014R
+Forza,https://fftcg.cdn.sewest.net/images/cards/full/12-015H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-015H_eg.jpg, Forward, Fighter,fire, 3, H, 9000, V, Opus XII, 12-015H
+Blaze,https://fftcg.cdn.sewest.net/images/cards/full/12-016C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-016C_eg.jpg, Backup, Crystal Bearer,exburst, 4, C, , FFCC, Opus XII, 12-016C
+Magissa,https://fftcg.cdn.sewest.net/images/cards/full/12-017H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-017H_eg.jpg, Forward, Beastmaster,num, 4, H, 8000, V, Opus XII, 12-017H
+Lani,https://fftcg.cdn.sewest.net/images/cards/full/12-018H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-018H_eg.jpg, Forward, Headhunter,fire, 4, H, 7000, IX, Opus XII, 12-018H
+Amidatelion,https://fftcg.cdn.sewest.net/images/cards/full/12-019R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-019R_eg.jpg, Backup, Crystal Bearer,ice, 2, R, , FFCC, Opus XII, 12-019R
+Ulmia,https://fftcg.cdn.sewest.net/images/cards/full/12-020R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-020R_eg.jpg, Forward, Bard,down, 2, R, 5000, XI, Opus XII, 12-020R
+Necron,https://fftcg.cdn.sewest.net/images/cards/full/12-021R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-021R_eg.jpg, Forward, Necron,ice, 5, R, 9000, THEATRHYTHM · IX, Opus XII, 12-021R
+Esha'ntarl,https://fftcg.cdn.sewest.net/images/cards/full/12-022H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-022H_eg.jpg, Forward, Member of the Armathrwn Society,down, 4, H, 8000, XI, Opus XII, 12-022H
+Eduardo,https://fftcg.cdn.sewest.net/images/cards/full/12-023H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-023H_eg.jpg, Backup, Bard,ability, 4, H, , FFL, Opus XII, 12-023H
+Emet-Selch,https://fftcg.cdn.sewest.net/images/cards/full/12-024H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-024H_eg.jpg, Forward, Ascian,ice, 4, H, 9000, XIV, Opus XII, 12-024H
+Carbuncle,https://fftcg.cdn.sewest.net/images/cards/full/12-025H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-025H_eg.jpg, Summon, ,ice, 2, H, , IX, Opus XII, 12-025H
+Scholar,https://fftcg.cdn.sewest.net/images/cards/full/12-026C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-026C_eg.jpg, Backup, Standard Unit,down, 2, C, , XIV, Opus XII, 12-026C
+Gunbreaker,https://fftcg.cdn.sewest.net/images/cards/full/12-027C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-027C_eg.jpg, Forward, Standard Unit,ice, 4, C, 8000, XIV, Opus XII, 12-027C
+Bard,https://fftcg.cdn.sewest.net/images/cards/full/12-028C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-028C_eg.jpg, Backup, Standard Unit,ice, 3, C, , XIV, Opus XII, 12-028C
+The Emperor,https://fftcg.cdn.sewest.net/images/cards/full/12-029L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-029L_eg.jpg, Forward, Emperor,ice, 2, L, 5000, II, Opus XII, 12-029L
+Shiva,https://fftcg.cdn.sewest.net/images/cards/full/12-030C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-030C_eg.jpg, Summon, ,ice, 2, C, , FFEX, Opus XII, 12-030C
+Summoner,https://fftcg.cdn.sewest.net/images/cards/full/12-031C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-031C_eg.jpg, Backup, Standard Unit,ice, 2, C, , XIV, Opus XII, 12-031C
+The Crystal Exarch,https://fftcg.cdn.sewest.net/images/cards/full/12-032R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-032R_eg.jpg, Forward, Overseer,ice, 4, R, 7000, XIV, Opus XII, 12-032R
+Snow,https://fftcg.cdn.sewest.net/images/cards/full/12-033R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-033R_eg.jpg, Forward, L'Cie,ice, 6, R, 7000, DFF · XIII, Opus XII, 12-033R
+Nooj,https://fftcg.cdn.sewest.net/images/cards/full/12-034C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-034C_eg.jpg, Forward, Mevyn,exburst, 4, C, 8000, X, Opus XII, 12-034C
+Belle,https://fftcg.cdn.sewest.net/images/cards/full/12-035C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-035C_eg.jpg, Backup, Informant,ice, 3, C, , FFCC, Opus XII, 12-035C
+Mimic,https://fftcg.cdn.sewest.net/images/cards/full/12-036C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-036C_eg.jpg, Monster, Mimic,ice, 3, C, 7000, IX, Opus XII, 12-036C
+Ashe,https://fftcg.cdn.sewest.net/images/cards/full/12-037L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-037L_eg.jpg, Forward, Princess,wind, 2, L, 5000, XII, Opus XII, 12-037L
+Althea,https://fftcg.cdn.sewest.net/images/cards/full/12-038H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-038H_eg.jpg, Backup, Princess,down, 3, H, , FFCC, Opus XII, 12-038H
+Alexander,https://fftcg.cdn.sewest.net/images/cards/full/12-039C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-039C_eg.jpg, Summon, ,exburst, 1, C, , DFF, Opus XII, 12-039C
+Enkidu,https://fftcg.cdn.sewest.net/images/cards/full/12-040H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-040H_eg.jpg, Forward, Warrior,ability, 3, H, 7000, THEATRHYTHM · V, Opus XII, 12-040H
+Dancer,https://fftcg.cdn.sewest.net/images/cards/full/12-041C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-041C_eg.jpg, Forward, Standard Unit,down, 3, C, 7000, XIV, Opus XII, 12-041C
+Cactuar,https://fftcg.cdn.sewest.net/images/cards/full/12-042C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-042C_eg.jpg, Monster, Cactuar,wind, 1, C, 4000, Crystal Hunt, Opus XII, 12-042C
+White Mage,https://fftcg.cdn.sewest.net/images/cards/full/12-043C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-043C_eg.jpg, Backup, Standard Unit,wind, 2, C, , Special, Opus XII, 12-043C
+Shikaree X,https://fftcg.cdn.sewest.net/images/cards/full/12-044R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-044R_eg.jpg, Forward, Sin Hunter,wind, 2, R, 5000, XI, Opus XII, 12-044R
+Shikaree Y,https://fftcg.cdn.sewest.net/images/cards/full/12-045R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-045R_eg.jpg, Forward, Sin Hunter,wind, 2, R, 5000, XI, Opus XII, 12-045R
+Shikaree Z,https://fftcg.cdn.sewest.net/images/cards/full/12-046R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-046R_eg.jpg, Forward, Sin Hunter,wind, 2, R, 5000, XI, Opus XII, 12-046R
+Chocobo,https://fftcg.cdn.sewest.net/images/cards/full/12-047C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-047C_eg.jpg, Backup, Standard Unit,down, 2, C, , Crystal Hunt, Opus XII, 12-047C
+Chocolatte,https://fftcg.cdn.sewest.net/images/cards/full/12-048R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-048R_eg.jpg, Backup, Chocobo,down, 2, R, , WOFF, Opus XII, 12-048R
+Diabolos,https://fftcg.cdn.sewest.net/images/cards/full/12-049H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-049H_eg.jpg, Summon, ,wind, 2, H, , FFEX, Opus XII, 12-049H
+Ninja,https://fftcg.cdn.sewest.net/images/cards/full/12-050C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-050C_eg.jpg, Backup, Standard Unit,wind, 2, C, , FFEX, Opus XII, 12-050C
+Paine,https://fftcg.cdn.sewest.net/images/cards/full/12-051R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-051R_eg.jpg, Forward, Gullwings,wind, 4, R, 8000, X, Opus XII, 12-051R
+Bartz,https://fftcg.cdn.sewest.net/images/cards/full/12-052H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-052H_eg.jpg, Forward, Warrior of Light,wind, 4, H, 8000, DFF · V, Opus XII, 12-052H
+Boko,https://fftcg.cdn.sewest.net/images/cards/full/12-053C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-053C_eg.jpg, Forward, Chocobo,wind, 1, C, 3000, V, Opus XII, 12-053C
+Moogle (Crystal Hunt),https://fftcg.cdn.sewest.net/images/cards/full/12-054C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-054C_eg.jpg, Forward, Moogle,exburst, 3, C, 7000, Crystal Hunt, Opus XII, 12-054C
+Dark Knight,https://fftcg.cdn.sewest.net/images/cards/full/12-055C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-055C_eg.jpg, Forward, Standard Unit,earth, 4, C, 8000, XIV, Opus XII, 12-055C
+Galuf,https://fftcg.cdn.sewest.net/images/cards/full/12-056H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-056H_eg.jpg, Forward, Dawn Warrior,ability, 3, H, 7000, V, Opus XII, 12-056H
+Machinist,https://fftcg.cdn.sewest.net/images/cards/full/12-057C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-057C_eg.jpg, Backup, Standard Unit,down, 2, C, , XIV, Opus XII, 12-057C
+Gippal,https://fftcg.cdn.sewest.net/images/cards/full/12-058C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-058C_eg.jpg, Forward, Faction Leader,earth, 3, C, 7000, X, Opus XII, 12-058C
+Kujata,https://fftcg.cdn.sewest.net/images/cards/full/12-059C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-059C_eg.jpg, Summon, ,earth, 4, C, , MOBIUS · VII, Opus XII, 12-059C
+Graham,https://fftcg.cdn.sewest.net/images/cards/full/12-060R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-060R_eg.jpg, Backup, Dark Knight,earth, 3, R, , FFL, Opus XII, 12-060R
+Krile,https://fftcg.cdn.sewest.net/images/cards/full/12-061L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-061L_eg.jpg, Forward, Warrior of Light,num, 2, L, 5000, V, Opus XII, 12-061L
+Glaive,https://fftcg.cdn.sewest.net/images/cards/full/12-062R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-062R_eg.jpg, Forward, Warrior of Darkness,earth, 4, R, 8000, FFL, Opus XII, 12-062R
+White Mage,https://fftcg.cdn.sewest.net/images/cards/full/12-063C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-063C_eg.jpg, Backup, Standard Unit,down, 4, C, , XIV, Opus XII, 12-063C
+Objet d'Art,https://fftcg.cdn.sewest.net/images/cards/full/12-064C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-064C_eg.jpg, Monster, Statue,earth, 2, C, 6000, THEATRHYTHM · V, Opus XII, 12-064C
+Nacht,https://fftcg.cdn.sewest.net/images/cards/full/12-065H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-065H_eg.jpg, Forward, Warrior of Darkness,earth, 5, H, 9000, FFL, Opus XII, 12-065H
+Vaigali,https://fftcg.cdn.sewest.net/images/cards/full/12-066C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-066C_eg.jpg, Backup, Guild Master,earth, 4, C, , FFCC, Opus XII, 12-066C
+The Oracle of Light,https://fftcg.cdn.sewest.net/images/cards/full/12-067R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-067R_eg.jpg, Backup, Oracle of Light,down, 2, R, , XIV, Opus XII, 12-067R
+Fenrir,https://fftcg.cdn.sewest.net/images/cards/full/12-068H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-068H_eg.jpg, Summon, ,earth, 5, H, , FFEX, Opus XII, 12-068H
+Borghen,https://fftcg.cdn.sewest.net/images/cards/full/12-069H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-069H_eg.jpg, Forward, Captain,earth, 1, H, 9000, II, Opus XII, 12-069H
+Monk,https://fftcg.cdn.sewest.net/images/cards/full/12-070C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-070C_eg.jpg, Backup, Standard Unit,earth, 3, C, , XIV, Opus XII, 12-070C
+Shadow Lord,https://fftcg.cdn.sewest.net/images/cards/full/12-071R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-071R_eg.jpg, Forward, Kindred,earth, 2, R, 9000, XI, Opus XII, 12-071R
+Layle,https://fftcg.cdn.sewest.net/images/cards/full/12-072R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-072R_eg.jpg, Forward, Crystal Bearer,earth, 4, R, 8000, FFCC, Opus XII, 12-072R
+Red Mage,https://fftcg.cdn.sewest.net/images/cards/full/12-073C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-073C_eg.jpg, Backup, Standard Unit,lightning, 3, C, , XIV, Opus XII, 12-073C
+Argy,https://fftcg.cdn.sewest.net/images/cards/full/12-074H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-074H_eg.jpg, Forward, Memorist,lightning, 3, H, 7000, FFL, Opus XII, 12-074H
+Alba,https://fftcg.cdn.sewest.net/images/cards/full/12-075R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-075R_eg.jpg, Forward, Warrior of Darkness,lightning, 2, R, 5000, FFL, Opus XII, 12-075R
+Exdeath,https://fftcg.cdn.sewest.net/images/cards/full/12-076R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-076R_eg.jpg, Backup, Wizard,lightning, 4, R, , THEATRHYTHM · V, Opus XII, 12-076R
+Odin,https://fftcg.cdn.sewest.net/images/cards/full/12-077H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-077H_eg.jpg, Summon, ,lightning, 6, H, , IX, Opus XII, 12-077H
+Gilgamesh,https://fftcg.cdn.sewest.net/images/cards/full/12-078L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-078L_eg.jpg, Forward, Praetorian,down, 5, L, 9000, MOBIUS · V, Opus XII, 12-078L
+Cid (FFCC),https://fftcg.cdn.sewest.net/images/cards/full/12-079C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-079C_eg.jpg, Backup, Engineer,down, 2, C, , FFCC, Opus XII, 12-079C
+Cid Previa,https://fftcg.cdn.sewest.net/images/cards/full/12-080H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-080H_eg.jpg, Forward, Engineer,lightning, 1, H, 2000, V, Opus XII, 12-080H
+Jegran,https://fftcg.cdn.sewest.net/images/cards/full/12-081R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-081R_eg.jpg, Forward, Knight,lightning, 6, R, 8000, FFCC, Opus XII, 12-081R
+Diana,https://fftcg.cdn.sewest.net/images/cards/full/12-082R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-082R_eg.jpg, Backup, Warrior of Darkness,exburst, 3, R, , FFL, Opus XII, 12-082R
+Ninja,https://fftcg.cdn.sewest.net/images/cards/full/12-083C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-083C_eg.jpg, Backup, Standard Unit,lightning, 4, C, , XIV, Opus XII, 12-083C
+Vivi,https://fftcg.cdn.sewest.net/images/cards/full/12-084C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-084C_eg.jpg, Forward, Black Mage,exburst, 3, C, 6000, THEATRHYTHM · IX, Opus XII, 12-084C
+Firion,https://fftcg.cdn.sewest.net/images/cards/full/12-085R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-085R_eg.jpg, Backup, Rebel,down, 2, R, , DFF · II, Opus XII, 12-085R
+Behemoth,https://fftcg.cdn.sewest.net/images/cards/full/12-086C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-086C_eg.jpg, Monster, Behemoth,lightning, 5, C, 9000, Crystal Hunt, Opus XII, 12-086C
+Mid Previa,https://fftcg.cdn.sewest.net/images/cards/full/12-087H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-087H_eg.jpg, Forward, Engineer,lightning, 4, H, 6000, V, Opus XII, 12-087H
+Ramuh,https://fftcg.cdn.sewest.net/images/cards/full/12-088C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-088C_eg.jpg, Summon, ,exburst, 5, C, , FFEX, Opus XII, 12-088C
+Dragoon,https://fftcg.cdn.sewest.net/images/cards/full/12-089C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-089C_eg.jpg, Forward, Standard Unit,lightning, 3, C, 7000, Special, Opus XII, 12-089C
+Dragoon,https://fftcg.cdn.sewest.net/images/cards/full/12-090C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-090C_eg.jpg, Backup, Standard Unit,down, 2, C, , XIV, Opus XII, 12-090C
+Blue Mage,https://fftcg.cdn.sewest.net/images/cards/full/12-091C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-091C_eg.jpg, Backup, Standard Unit,water, 4, C, , FFEX, Opus XII, 12-091C
+Ultros,https://fftcg.cdn.sewest.net/images/cards/full/12-092C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-092C_eg.jpg, Forward, Octopus,water, 2, C, 5000, THEATRHYTHM · VI, Opus XII, 12-092C
+Scholar,https://fftcg.cdn.sewest.net/images/cards/full/12-093C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-093C_eg.jpg, Backup, Standard Unit,water, 4, C, , Special, Opus XII, 12-093C
+Captain,https://fftcg.cdn.sewest.net/images/cards/full/12-094C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-094C_eg.jpg, Monster, Warrior,water, 3, C, 7000, THEATRHYTHM · II, Opus XII, 12-094C
+Keiss,https://fftcg.cdn.sewest.net/images/cards/full/12-095R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-095R_eg.jpg, Backup, Partner,down, 2, R, , FFCC, Opus XII, 12-095R
+Quacho Queen,https://fftcg.cdn.sewest.net/images/cards/full/12-096H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-096H_eg.jpg, Forward, Queen,water, 4, H, 8000, WOFF, Opus XII, 12-096H
+Syldra,https://fftcg.cdn.sewest.net/images/cards/full/12-097H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-097H_eg.jpg, Summon, ,water, 4, H, , V, Opus XII, 12-097H
+Strago,https://fftcg.cdn.sewest.net/images/cards/full/12-098H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-098H_eg.jpg, Forward, Blue Mage,water, 5, H, 7000, VI, Opus XII, 12-098H
+Sarah (FFL),https://fftcg.cdn.sewest.net/images/cards/full/12-099R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-099R_eg.jpg, Backup, Warrior of Light,down, 6, R, , FFL, Opus XII, 12-099R
+Astrologian,https://fftcg.cdn.sewest.net/images/cards/full/12-100C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-100C_eg.jpg, Backup, Standard Unit,down, 2, C, , XIV, Opus XII, 12-100C
+Dusk,https://fftcg.cdn.sewest.net/images/cards/full/12-101R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-101R_eg.jpg, Forward, Warrior of Light,water, 3, R, 7000, FFL, Opus XII, 12-101R
+Paladin,https://fftcg.cdn.sewest.net/images/cards/full/12-102C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-102C_eg.jpg, Forward, Standard Unit,water, 4, C, 8000, XIV, Opus XII, 12-102C
+Beatrix,https://fftcg.cdn.sewest.net/images/cards/full/12-103H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-103H_eg.jpg, Forward, Knight,num, 2, H, 5000, IX, Opus XII, 12-103H
+Minwu,https://fftcg.cdn.sewest.net/images/cards/full/12-104C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-104C_eg.jpg, Backup, White Mage,water, 2, C, , THEATRHYTHM · II, Opus XII, 12-104C
+Yuna,https://fftcg.cdn.sewest.net/images/cards/full/12-105L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-105L_eg.jpg, Forward, Gullwings,num, 3, L, 7000, X, Opus XII, 12-105L
+Relm,https://fftcg.cdn.sewest.net/images/cards/full/12-106R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-106R_eg.jpg, Forward, Pictomancer,exburst, 4, R, 5000, VI, Opus XII, 12-106R
+Lunafreya,https://fftcg.cdn.sewest.net/images/cards/full/12-107R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-107R_eg.jpg, Forward, Oracle,water, 2, R, 5000, XV, Opus XII, 12-107R
+Remora,https://fftcg.cdn.sewest.net/images/cards/full/12-108C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-108C_eg.jpg, Summon, ,exburst, 6, C, , MOBIUS, Opus XII, 12-108C
+Lenna,https://fftcg.cdn.sewest.net/images/cards/full/12-109L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-109L_eg.jpg, Forward, Warrior of Light,down, 3, L, 8000, V, Opus XII, 12-109L
+Neo Exdeath,https://fftcg.cdn.sewest.net/images/cards/full/12-110L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-110L_eg.jpg, Forward, None,dark, 6, L, 10000, MOBIUS · V, Opus XII, 12-110L
+Vayne,https://fftcg.cdn.sewest.net/images/cards/full/12-111R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-111R_eg.jpg, Forward, Consul,fire, 3, R, 8000, DFF · XII, Opus XII, 12-111R
+Selh'teus,https://fftcg.cdn.sewest.net/images/cards/full/12-112L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-112L_eg.jpg, Forward, Kuluu,fire, 4, L, 7000, XI, Opus XII, 12-112L
+Leon,https://fftcg.cdn.sewest.net/images/cards/full/12-113C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-113C_eg.jpg, Forward, Rebel,fire, 2, C, 7000, THEATRHYTHM · II, Opus XII, 12-113C
+Baralai,https://fftcg.cdn.sewest.net/images/cards/full/12-114R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-114R_eg.jpg, Forward, Praetor,ice, 3, R, 7000, X, Opus XII, 12-114R
+Rikku,https://fftcg.cdn.sewest.net/images/cards/full/12-115C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-115C_eg.jpg, Forward, Gullwings,ice, 2, C, 6000, X, Opus XII, 12-115C
+Locke,https://fftcg.cdn.sewest.net/images/cards/full/12-116L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-116L_eg.jpg, Forward, Treasure Hunter,ice, 8, L, 9000, DFF · VI, Opus XII, 12-116L
+Iris,https://fftcg.cdn.sewest.net/images/cards/full/12-117R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-117R_eg.jpg, Forward, Lucian Subject,wind, 4, R, 8000, XV, Opus XII, 12-117R
+Prishe,https://fftcg.cdn.sewest.net/images/cards/full/12-118C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-118C_eg.jpg, Forward, Abhorrent One,wind, 2, C, 7000, DFF · XI, Opus XII, 12-118C
+Y'shtola,https://fftcg.cdn.sewest.net/images/cards/full/12-119L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-119L_eg.jpg, Forward, Scion of the Seventh Dawn,wind, 3, L, 9000, XIV, Opus XII, 12-119L
+Shantotto,https://fftcg.cdn.sewest.net/images/cards/full/12-120C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-120C_eg.jpg, Forward, Mage,earth, 2, C, 7000, DFF · XI, Opus XII, 12-120C
+Noctis,https://fftcg.cdn.sewest.net/images/cards/full/12-121R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-121R_eg.jpg, Forward, Prince,earth, 3, R, 7000, DFF · XV, Opus XII, 12-121R
+Regis,https://fftcg.cdn.sewest.net/images/cards/full/12-122L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-122L_eg.jpg, Forward, King,ability, 5, L, 8000, XV, Opus XII, 12-122L
+Urianger,https://fftcg.cdn.sewest.net/images/cards/full/12-123R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-123R_eg.jpg, Forward, Scion of the Seventh Dawn,lightning, 3, R, 7000, XIV, Opus XII, 12-123R
+Thancred,https://fftcg.cdn.sewest.net/images/cards/full/12-124L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-124L_eg.jpg, Forward, Scion of the Seventh Dawn,lightning, 7, L, 8000, XIV, Opus XII, 12-124L
+Freya,https://fftcg.cdn.sewest.net/images/cards/full/12-125C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-125C_eg.jpg, Forward, Dragoon,lightning, 2, C, 7000, DFF · IX, Opus XII, 12-125C
+Gawain,https://fftcg.cdn.sewest.net/images/cards/full/12-126R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-126R_eg.jpg, Forward, Knight,water, 4, R, 5000, FFL, Opus XII, 12-126R
+Steiner,https://fftcg.cdn.sewest.net/images/cards/full/12-127C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-127C_eg.jpg, Forward, Knight,water, 2, C, 7000, DFF · IX, Opus XII, 12-127C
+Faris,https://fftcg.cdn.sewest.net/images/cards/full/12-128L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/12-128L_eg.jpg, Forward, Warrior of Light,water, 4, L, 8000, V, Opus XII, 12-128L
+Shantotto,https://fftcg.cdn.sewest.net/images/cards/full/1-107L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/1-107L_eg.jpg, Backup, Mage,earth, 7, L, , DFF · XI, Opus XII, 1-107L
+Locke,https://fftcg.cdn.sewest.net/images/cards/full/4-048L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/4-048L_eg.jpg, Forward, Treasure Hunter,ability, 3, L, 7000, VI, Opus XII, 4-048L
+Minwu,https://fftcg.cdn.sewest.net/images/cards/full/6-123L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/6-123L_eg.jpg, Forward, Mage,water, 4, L, 7000, II, Opus XII, 6-123L
+Irvine,https://fftcg.cdn.sewest.net/images/cards/full/13-001R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-001R_eg.jpg, Forward, Sniper,fire, 2, R, 5000, DFF · VIII, Opus XIII, 13-001R
+Akstar,https://fftcg.cdn.sewest.net/images/cards/full/13-002L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-002L_eg.jpg, Forward, Mercenary,fire, 4, L, 8000, FFBE, Opus XIII, 13-002L
+Imaginary Soldier,https://fftcg.cdn.sewest.net/images/cards/full/13-003C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-003C_eg.jpg, Forward, Manikin,fire, 2, C, 3000, DFF, Opus XIII, 13-003C
+Clavat,https://fftcg.cdn.sewest.net/images/cards/full/13-004C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-004C_eg.jpg, Forward, Standard Unit,fire, 4, C, 7000, FFCC, Opus XIII, 13-004C
+Black Mage,https://fftcg.cdn.sewest.net/images/cards/full/13-005C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-005C_eg.jpg, Backup, Standard Unit,fire, 3, C, , FFEX, Opus XIII, 13-005C
+Xande,https://fftcg.cdn.sewest.net/images/cards/full/13-006C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-006C_eg.jpg, Backup, Dark Lord,fire, 2, C, , PICTLOGICA · III, Opus XIII, 13-006C
+Cinque,https://fftcg.cdn.sewest.net/images/cards/full/13-007R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-007R_eg.jpg, Forward, Class Zero Cadet,fire, 2, R, 5000, TYPE-0, Opus XIII, 13-007R
+Vermilion Bird l'Cie Caetuna,https://fftcg.cdn.sewest.net/images/cards/full/13-008R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-008R_eg.jpg, Backup, L'Cie,down, 7, R, , TYPE-0, Opus XIII, 13-008R
+Selphie,https://fftcg.cdn.sewest.net/images/cards/full/13-009H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-009H_eg.jpg, Forward, SeeD Candidate,fire, 2, H, 5000, VIII, Opus XIII, 13-009H
+Onion Knight (FFT),https://fftcg.cdn.sewest.net/images/cards/full/13-010C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-010C_eg.jpg, Forward, Standard Unit,fire, 2, C, 5000, FFT, Opus XIII, 13-010C
+Iron Giant,https://fftcg.cdn.sewest.net/images/cards/full/13-011C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-011C_eg.jpg, Monster, Iron Giant,fire, 1, C, 7000, VIII, Opus XIII, 13-011C
+Bahamut,https://fftcg.cdn.sewest.net/images/cards/full/13-012R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-012R_eg.jpg, Summon, ,exburst, 5, R, , FFT, Opus XIII, 13-012R
+Palom,https://fftcg.cdn.sewest.net/images/cards/full/13-013C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-013C_eg.jpg, Backup, Black Mage,fire, 2, C, , PICTLOGICA · IV, Opus XIII, 13-013C
+Larkeicus,https://fftcg.cdn.sewest.net/images/cards/full/13-014R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-014R_eg.jpg, Backup, Doctor,fire, 1, R, , FFCC, Opus XIII, 13-014R
+Luneth,https://fftcg.cdn.sewest.net/images/cards/full/13-015C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-015C_eg.jpg, Backup, Warrior of Light,num, 2, C, , III, Opus XIII, 13-015C
+Rubicante,https://fftcg.cdn.sewest.net/images/cards/full/13-016H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-016H_eg.jpg, Forward, Archfiend,fire, 2, H, 5000, IV, Opus XIII, 13-016H
+Rain,https://fftcg.cdn.sewest.net/images/cards/full/13-017H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-017H_eg.jpg, Forward, King,fire, 6, H, 7000, FFBE, Opus XIII, 13-017H
+Quistis,https://fftcg.cdn.sewest.net/images/cards/full/13-018C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-018C_eg.jpg, Backup, Instructor,ice, 3, C, , DFF · VIII, Opus XIII, 13-018C
+Coeurl,https://fftcg.cdn.sewest.net/images/cards/full/13-019C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-019C_eg.jpg, Monster, Coeurl,ice, 1, C, 7000, FFTA, Opus XIII, 13-019C
+Kurasame,https://fftcg.cdn.sewest.net/images/cards/full/13-020C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-020C_eg.jpg, Backup, Instructor,down, 2, C, , TYPE-0, Opus XIII, 13-020C
+Shiva,https://fftcg.cdn.sewest.net/images/cards/full/13-021R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-021R_eg.jpg, Summon, ,exburst, 5, R, , TYPE-0, Opus XIII, 13-021R
+Cid Randell,https://fftcg.cdn.sewest.net/images/cards/full/13-022H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-022H_eg.jpg, Forward, Judgemaster,ice, 4, H, 6000, FFTA, Opus XIII, 13-022H
+Charlotte,https://fftcg.cdn.sewest.net/images/cards/full/13-023R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-023R_eg.jpg, Forward, Knight,ice, 2, R, 5000, FFBE, Opus XIII, 13-023R
+Squall,https://fftcg.cdn.sewest.net/images/cards/full/13-024R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-024R_eg.jpg, Backup, SeeD Candidate,down, 2, R, , DFF · VIII, Opus XIII, 13-024R
+Onion Knight (FFT),https://fftcg.cdn.sewest.net/images/cards/full/13-025C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-025C_eg.jpg, Forward, Standard Unit,ice, 2, C, 5000, FFT, Opus XIII, 13-025C
+Tellah,https://fftcg.cdn.sewest.net/images/cards/full/13-026C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-026C_eg.jpg, Backup, Sage,exburst, 4, C, , PICTLOGICA · IV, Opus XIII, 13-026C
+Time Mage,https://fftcg.cdn.sewest.net/images/cards/full/13-027C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-027C_eg.jpg, Backup, Standard Unit,ice, 3, C, , FFEX, Opus XIII, 13-027C
+Physalis,https://fftcg.cdn.sewest.net/images/cards/full/13-028L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-028L_eg.jpg, Forward, Member of the Orders,ability, 5, L, 9000, FFBE, Opus XIII, 13-028L
+Counterfeit Wraith,https://fftcg.cdn.sewest.net/images/cards/full/13-029C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-029C_eg.jpg, Forward, Manikin,ice, 4, C, 5000, DFF, Opus XIII, 13-029C
+Yuke,https://fftcg.cdn.sewest.net/images/cards/full/13-030C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-030C_eg.jpg, Forward, Standard Unit,ice, 4, C, 7000, FFCC, Opus XIII, 13-030C
+Laguna,https://fftcg.cdn.sewest.net/images/cards/full/13-031R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-031R_eg.jpg, Forward, Marksman,ice, 5, R, 9000, DFF · VIII, Opus XIII, 13-031R
+Rinoa,https://fftcg.cdn.sewest.net/images/cards/full/13-032H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-032H_eg.jpg, Forward, Resistance Fighter,ice, 4, H, 8000, DFF · VIII, Opus XIII, 13-032H
+Levnato,https://fftcg.cdn.sewest.net/images/cards/full/13-033R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-033R_eg.jpg, Forward, Member of the Orders,ice, 3, R, 8000, FFBE, Opus XIII, 13-033R
+Remedi,https://fftcg.cdn.sewest.net/images/cards/full/13-034H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-034H_eg.jpg, Forward, Queen,ice, 3, H, 7000, FFTA, Opus XIII, 13-034H
+Arc,https://fftcg.cdn.sewest.net/images/cards/full/13-035C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-035C_eg.jpg, Backup, Warrior of Light,wind, 2, C, , III, Opus XIII, 13-035C
+Eight,https://fftcg.cdn.sewest.net/images/cards/full/13-036R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-036R_eg.jpg, Forward, Class Zero Cadet,wind, 3, R, 7000, DFF · TYPE-0, Opus XIII, 13-036R
+Ochu,https://fftcg.cdn.sewest.net/images/cards/full/13-037C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-037C_eg.jpg, Monster, Ochu,wind, 1, C, 7000, VIII, Opus XIII, 13-037C
+Cid Haze,https://fftcg.cdn.sewest.net/images/cards/full/13-038H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-038H_eg.jpg, Forward, Engineer,down, 4, H, 8000, III, Opus XIII, 13-038H
+Cid Pollendina,https://fftcg.cdn.sewest.net/images/cards/full/13-039C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-039C_eg.jpg, Backup, Engineer,exburst, 3, C, , PICTLOGICA · IV, Opus XIII, 13-039C
+Shara,https://fftcg.cdn.sewest.net/images/cards/full/13-040L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-040L_eg.jpg, Forward, Archer,exburst, 2, L, 4000, FFTA, Opus XIII, 13-040L
+White Mage,https://fftcg.cdn.sewest.net/images/cards/full/13-041C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-041C_eg.jpg, Forward, Standard Unit,num, 3, C, 7000, III, Opus XIII, 13-041C
+White Mage,https://fftcg.cdn.sewest.net/images/cards/full/13-042C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-042C_eg.jpg, Backup, Standard Unit,wind, 3, C, , FFEX, Opus XIII, 13-042C
+Stiltzkin,https://fftcg.cdn.sewest.net/images/cards/full/13-043C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-043C_eg.jpg, Backup, Moogle,wind, 3, C, , FFCC, Opus XIII, 13-043C
+Selkie,https://fftcg.cdn.sewest.net/images/cards/full/13-044C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-044C_eg.jpg, Forward, Standard Unit,wind, 4, C, 7000, FFCC, Opus XIII, 13-044C
+Dryad,https://fftcg.cdn.sewest.net/images/cards/full/13-045R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-045R_eg.jpg, Summon, ,exburst, 1, R, , FFEX, Opus XIII, 13-045R
+Pavlov,https://fftcg.cdn.sewest.net/images/cards/full/13-046R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-046R_eg.jpg, Backup, Penguin,wind, 2, R, , FFCC, Opus XIII, 13-046R
+Barbariccia,https://fftcg.cdn.sewest.net/images/cards/full/13-047H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-047H_eg.jpg, Forward, Archfiend,wind, 2, H, 5000, IV, Opus XIII, 13-047H
+Balthier,https://fftcg.cdn.sewest.net/images/cards/full/13-048H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-048H_eg.jpg, Forward, Sky Pirate,wind, 4, H, 7000, FFT, Opus XIII, 13-048H
+Counterfeit Youth,https://fftcg.cdn.sewest.net/images/cards/full/13-049C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-049C_eg.jpg, Forward, Manikin,wind, 2, C, 5000, DFF, Opus XIII, 13-049C
+Mid,https://fftcg.cdn.sewest.net/images/cards/full/13-050R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-050R_eg.jpg, Forward, Member of the Orders,wind, 4, R, 7000, FFBE, Opus XIII, 13-050R
+Mog (FFBE),https://fftcg.cdn.sewest.net/images/cards/full/13-051R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-051R_eg.jpg, Backup, Moogle,wind, 3, R, , FFBE, Opus XIII, 13-051R
+Abyss Worm,https://fftcg.cdn.sewest.net/images/cards/full/13-052C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-052C_eg.jpg, Monster, Worm,earth, 1, C, 7000, VIII, Opus XIII, 13-052C
+Alexander,https://fftcg.cdn.sewest.net/images/cards/full/13-053R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-053R_eg.jpg, Summon, ,exburst, 2, R, , FFEX, Opus XIII, 13-053R
+Lady of Antiquity,https://fftcg.cdn.sewest.net/images/cards/full/13-054C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-054C_eg.jpg, Backup, Manikin,earth, 2, C, , DFF, Opus XIII, 13-054C
+Ingus,https://fftcg.cdn.sewest.net/images/cards/full/13-055C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-055C_eg.jpg, Backup, Warrior of Light,down, 2, C, , III, Opus XIII, 13-055C
+Vanille,https://fftcg.cdn.sewest.net/images/cards/full/13-056R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-056R_eg.jpg, Forward, Saint,earth, 2, R, 6000, XIII, Opus XIII, 13-056R
+Graff,https://fftcg.cdn.sewest.net/images/cards/full/13-057H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-057H_eg.jpg, Forward, Warrior,ability, 3, H, 7000, MOBIUS, Opus XIII, 13-057H
+Sherlotta,https://fftcg.cdn.sewest.net/images/cards/full/13-058C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-058C_eg.jpg, Backup, Mysterious Woman,earth, 2, C, , FFCC, Opus XIII, 13-058C
+Scarmiglione,https://fftcg.cdn.sewest.net/images/cards/full/13-059H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-059H_eg.jpg, Forward, Archfiend,earth, 2, H, 3000, IV, Opus XIII, 13-059H
+Cecil,https://fftcg.cdn.sewest.net/images/cards/full/13-060R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-060R_eg.jpg, Forward, Dark Knight,earth, 3, R, 7000, IV, Opus XIII, 13-060R
+Hugh Yurg,https://fftcg.cdn.sewest.net/images/cards/full/13-061C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-061C_eg.jpg, Forward, Warrior,earth, 4, C, 8000, FFCC, Opus XIII, 13-061C
+Bhunivelze,https://fftcg.cdn.sewest.net/images/cards/full/13-062H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-062H_eg.jpg, Forward, God,earth, 10, H, 10000, XIII, Opus XIII, 13-062H
+Monk,https://fftcg.cdn.sewest.net/images/cards/full/13-063C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-063C_eg.jpg, Forward, Standard Unit,earth, 5, C, 8000, III, Opus XIII, 13-063C
+Yang,https://fftcg.cdn.sewest.net/images/cards/full/13-064R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-064R_eg.jpg, Forward, Monk,earth, 3, R, 7000, DFF · IV, Opus XIII, 13-064R
+Rydia,https://fftcg.cdn.sewest.net/images/cards/full/13-065R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-065R_eg.jpg, Backup, Summoner,down, 6, R, , IV, Opus XIII, 13-065R
+Lilty,https://fftcg.cdn.sewest.net/images/cards/full/13-066C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-066C_eg.jpg, Forward, Standard Unit,earth, 4, C, 7000, FFCC, Opus XIII, 13-066C
+Leo,https://fftcg.cdn.sewest.net/images/cards/full/13-067L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-067L_eg.jpg, Forward, King,num, 1, L, 3000, FFCC, Opus XIII, 13-067L
+Alchemist,https://fftcg.cdn.sewest.net/images/cards/full/13-068C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-068C_eg.jpg, Backup, Standard Unit,earth, 3, C, , FFEX, Opus XIII, 13-068C
+Red Mage,https://fftcg.cdn.sewest.net/images/cards/full/13-069C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-069C_eg.jpg, Backup, Standard Unit,lightning, 3, C, , FFEX, Opus XIII, 13-069C
+Delusory Warlock,https://fftcg.cdn.sewest.net/images/cards/full/13-070C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-070C_eg.jpg, Backup, Manikin,lightning, 3, C, , DFF, Opus XIII, 13-070C
+Exdeath,https://fftcg.cdn.sewest.net/images/cards/full/13-071R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-071R_eg.jpg, Forward, Wizard,lightning, 6, R, 8000, DFF · V, Opus XIII, 13-071R/2-101H
+Odin,https://fftcg.cdn.sewest.net/images/cards/full/13-072R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-072R_eg.jpg, Summon, ,exburst, 5, R, , FFEX, Opus XIII, 13-072R
+Kain,https://fftcg.cdn.sewest.net/images/cards/full/13-073H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-073H_eg.jpg, Forward, Dragoon,lightning, 2, H, 9000, IV, Opus XIII, 13-073H
+Clavat,https://fftcg.cdn.sewest.net/images/cards/full/13-074C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-074C_eg.jpg, Forward, Standard Unit,lightning, 4, C, 7000, FFCC, Opus XIII, 13-074C
+Sakura,https://fftcg.cdn.sewest.net/images/cards/full/13-075R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-075R_eg.jpg, Backup, Sage,lightning, 4, R, , FFBE, Opus XIII, 13-075R
+Jake,https://fftcg.cdn.sewest.net/images/cards/full/13-076R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-076R_eg.jpg, Forward, Marksman,lightning, 3, R, 7000, FFBE, Opus XIII, 13-076R
+Zemus,https://fftcg.cdn.sewest.net/images/cards/full/13-077C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-077C_eg.jpg, Backup, Lunarian,lightning, 4, C, , PICTLOGICA · IV, Opus XIII, 13-077C
+Propagator,https://fftcg.cdn.sewest.net/images/cards/full/13-078C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-078C_eg.jpg, Monster, Propagator,lightning, 1, C, 7000, VIII, Opus XIII, 13-078C
+Behemoth K,https://fftcg.cdn.sewest.net/images/cards/full/13-079L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-079L_eg.jpg, Forward, Sage of Hess,lightning, 5, L, 9000, FFBE, Opus XIII, 13-079L
+Marach,https://fftcg.cdn.sewest.net/images/cards/full/13-080C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-080C_eg.jpg, Forward, Netherseer,lightning, 4, C, 8000, PICTLOGICA · FFT, Opus XIII, 13-080C
+Lightning,https://fftcg.cdn.sewest.net/images/cards/full/13-081H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-081H_eg.jpg, Forward, Savior,lightning, 7, H, 9000, DFF · XIII, Opus XIII, 13-081H
+Rapha,https://fftcg.cdn.sewest.net/images/cards/full/13-082C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-082C_eg.jpg, Backup, Skyseer,down, 2, C, , PICTLOGICA · FFT, Opus XIII, 13-082C
+Lid,https://fftcg.cdn.sewest.net/images/cards/full/13-083H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-083H_eg.jpg, Forward, Engineer,ability, 3, H, 7000, FFBE, Opus XIII, 13-083H
+Dragoon,https://fftcg.cdn.sewest.net/images/cards/full/13-084C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-084C_eg.jpg, Forward, Standard Unit,lightning, 5, C, 8000, III, Opus XIII, 13-084C
+Lumina,https://fftcg.cdn.sewest.net/images/cards/full/13-085R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-085R_eg.jpg, Backup, Mysterious Woman,lightning, 3, R, , XIII, Opus XIII, 13-085R
+Agrias,https://fftcg.cdn.sewest.net/images/cards/full/13-086R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-086R_eg.jpg, Forward, Knight,exburst, 5, R, 9000, DFF · FFT, Opus XIII, 13-086R
+Delusory Knight,https://fftcg.cdn.sewest.net/images/cards/full/13-087C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-087C_eg.jpg, Forward, Manikin,water, 4, C, 8000, DFF, Opus XIII, 13-087C
+Elle,https://fftcg.cdn.sewest.net/images/cards/full/13-088H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-088H_eg.jpg, Forward, Warrior,water, 3, H, 7000, FFBE, Opus XIII, 13-088H
+Oilboyle,https://fftcg.cdn.sewest.net/images/cards/full/13-089C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-089C_eg.jpg, Monster, Oilboyle,water, 1, C, 7000, VIII, Opus XIII, 13-089C
+Ovelia,https://fftcg.cdn.sewest.net/images/cards/full/13-090L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-090L_eg.jpg, Backup, Princess,ability, 3, L, , FFT, Opus XIII, 13-090L
+Cagnazzo,https://fftcg.cdn.sewest.net/images/cards/full/13-091H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-091H_eg.jpg, Forward, Archfiend,water, 2, H, 4000, IV, Opus XIII, 13-091H
+Sage,https://fftcg.cdn.sewest.net/images/cards/full/13-092C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-092C_eg.jpg, Backup, Standard Unit,water, 3, C, , FFEX, Opus XIII, 13-092C
+Sara,https://fftcg.cdn.sewest.net/images/cards/full/13-093H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-093H_eg.jpg, Backup, Princess,water, 4, H, , III, Opus XIII, 13-093H
+Simon,https://fftcg.cdn.sewest.net/images/cards/full/13-094C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-094C_eg.jpg, Backup, Bishop,down, 2, C, , FFT, Opus XIII, 13-094C
+Tonogiri,https://fftcg.cdn.sewest.net/images/cards/full/13-095C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-095C_eg.jpg, Forward, Warrior,water, 4, C, 8000, TYPE-0, Opus XIII, 13-095C
+Nichol,https://fftcg.cdn.sewest.net/images/cards/full/13-096R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-096R_eg.jpg, Forward, Tactician,water, 2, R, 5000, FFBE, Opus XIII, 13-096R
+Viking,https://fftcg.cdn.sewest.net/images/cards/full/13-097C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-097C_eg.jpg, Forward, Standard Unit,water, 2, C, 4000, III, Opus XIII, 13-097C
+Fina,https://fftcg.cdn.sewest.net/images/cards/full/13-098R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-098R_eg.jpg, Backup, Blue Mage,water, 2, R, , FFBE, Opus XIII, 13-098R
+Yuke,https://fftcg.cdn.sewest.net/images/cards/full/13-099C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-099C_eg.jpg, Forward, Standard Unit,water, 4, C, 7000, FFCC, Opus XIII, 13-099C
+Leviathan,https://fftcg.cdn.sewest.net/images/cards/full/13-100R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-100R_eg.jpg, Summon, ,exburst, 2, R, , FFEX, Opus XIII, 13-100R
+Luka,https://fftcg.cdn.sewest.net/images/cards/full/13-101R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-101R_eg.jpg, Backup, Seeress,water, 3, R, , FFBE, Opus XIII, 13-101R
+Refia,https://fftcg.cdn.sewest.net/images/cards/full/13-102C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-102C_eg.jpg, Backup, Warrior of Light,num, 2, C, , III, Opus XIII, 13-102C
+Materia,https://fftcg.cdn.sewest.net/images/cards/full/13-103L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-103L_eg.jpg, Forward, Goddess,num, 1, L, 2000, DFF, Opus XIII, 13-103L
+Spiritus,https://fftcg.cdn.sewest.net/images/cards/full/13-104L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-104L_eg.jpg, Forward, God,num, 1, L, 2000, DFF, Opus XIII, 13-104L
+Lasswell,https://fftcg.cdn.sewest.net/images/cards/full/13-105R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-105R_eg.jpg, Forward, King,fire, 5, R, 8000, FFBE, Opus XIII, 13-105R
+Onion Knight,https://fftcg.cdn.sewest.net/images/cards/full/13-106H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-106H_eg.jpg, Forward, Onion Knight,fire, 4, H, 9000, DFF · III, Opus XIII, 13-106H
+Cater,https://fftcg.cdn.sewest.net/images/cards/full/13-107C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-107C_eg.jpg, Forward, Class Zero Cadet,fire, 2, C, 6000, DFF · TYPE-0, Opus XIII, 13-107C
+Llednar,https://fftcg.cdn.sewest.net/images/cards/full/13-108L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-108L_eg.jpg, Forward, Biskmatar,fire, 3, L, 8000, FFTA, Opus XIII, 13-108L
+Hope,https://fftcg.cdn.sewest.net/images/cards/full/13-109R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-109R_eg.jpg, Forward, Observer,ice, 3, R, 8000, XIII, Opus XIII, 13-109R
+Unei,https://fftcg.cdn.sewest.net/images/cards/full/13-110H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-110H_eg.jpg, Forward, Magus,ability, 5, H, 8000, III, Opus XIII, 13-110H
+Delita,https://fftcg.cdn.sewest.net/images/cards/full/13-111C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-111C_eg.jpg, Forward, Knight,ice, 2, C, 5000, PICTLOGICA · FFT, Opus XIII, 13-111C
+White Tiger l'Cie Nimbus,https://fftcg.cdn.sewest.net/images/cards/full/13-112L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-112L_eg.jpg, Forward, L'Cie,ice, 3, L, 9000, TYPE-0, Opus XIII, 13-112L
+Gudon,https://fftcg.cdn.sewest.net/images/cards/full/13-113R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-113R_eg.jpg, Forward, Member of the Orders,wind, 4, R, 9000, FFBE, Opus XIII, 13-113R
+Kunshira,https://fftcg.cdn.sewest.net/images/cards/full/13-114H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-114H_eg.jpg, Forward, Warrior,ability, 2, H, 9000, FFBE, Opus XIII, 13-114H
+Golbez,https://fftcg.cdn.sewest.net/images/cards/full/13-115L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-115L_eg.jpg, Forward, Warlock,exburst, 5, L, 9000, LOV · IV, Opus XIII, 13-115L
+Lightning,https://fftcg.cdn.sewest.net/images/cards/full/13-116C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-116C_eg.jpg, Forward, Savior,wind, 2, C, 5000, XIII, Opus XIII, 13-116C
+Wol,https://fftcg.cdn.sewest.net/images/cards/full/13-117R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-117R_eg.jpg, Forward, Warrior,earth, 2, R, 7000, MOBIUS, Opus XIII, 13-117R
+Sarah (MOBIUS),https://fftcg.cdn.sewest.net/images/cards/full/13-118C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-118C_eg.jpg, Forward, Princess,earth, 2, C, 5000, MOBIUS, Opus XIII, 13-118C
+Sophie,https://fftcg.cdn.sewest.net/images/cards/full/13-119L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-119L_eg.jpg, Forward, Monk,earth, 2, L, 4000, MOBIUS, Opus XIII, 13-119L
+Doga,https://fftcg.cdn.sewest.net/images/cards/full/13-120H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-120H_eg.jpg, Forward, Magus,earth, 6, H, 7000, III, Opus XIII, 13-120H
+Ramza,https://fftcg.cdn.sewest.net/images/cards/full/13-121R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-121R_eg.jpg, Forward, Knight,lightning, 7, R, 9000, DFF · FFT, Opus XIII, 13-121R
+Aldore Emperor,https://fftcg.cdn.sewest.net/images/cards/full/13-122H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-122H_eg.jpg, Forward, Emperor,lightning, 5, H, 9000, FFBE, Opus XIII, 13-122H
+Nine,https://fftcg.cdn.sewest.net/images/cards/full/13-123L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-123L_eg.jpg, Forward, Class Zero Cadet,lightning, 6, L, 9000, TYPE-0, Opus XIII, 13-123L
+Noel,https://fftcg.cdn.sewest.net/images/cards/full/13-124C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-124C_eg.jpg, Forward, Shadow Hunter,lightning, 2, C, 5000, XIII, Opus XIII, 13-124C
+Yuzuki,https://fftcg.cdn.sewest.net/images/cards/full/13-125R_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-125R_eg.jpg, Forward, Warrior,water, 3, R, 7000, TYPE-0, Opus XIII, 13-125R
+Ultimecia,https://fftcg.cdn.sewest.net/images/cards/full/13-126C_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-126C_eg.jpg, Forward, Witch,water, 2, C, 5000, DFF · VIII, Opus XIII, 13-126C
+Chime,https://fftcg.cdn.sewest.net/images/cards/full/13-127H_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-127H_eg.jpg, Forward, Minister,water, 4, H, 8000, FFCC, Opus XIII, 13-127H
+Celestia,https://fftcg.cdn.sewest.net/images/cards/full/13-128L_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-128L_eg.jpg, Forward, Warrior,water, 4, L, 9000, TYPE-0, Opus XIII, 13-128L
+Philia,https://fftcg.cdn.sewest.net/images/cards/full/13-129S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-129S_eg.jpg, Forward, Lightwarden,fire, 8, S, 10000, XIV, Opus XIII, 13-129S
+Ran'jit,https://fftcg.cdn.sewest.net/images/cards/full/13-130S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-130S_eg.jpg, Forward, Captain,fire, 8, S, 8000, XIV, Opus XIII, 13-130S
+Emet-Selch,https://fftcg.cdn.sewest.net/images/cards/full/13-131S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-131S_eg.jpg, Forward, Ascian,num, 3, S, 7000, XIV, Opus XIII, 13-131S
+Titania,https://fftcg.cdn.sewest.net/images/cards/full/13-132S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-132S_eg.jpg, Forward, Pixie King,ice, 2, S, 8000, XIV, Opus XIII, 13-132S
+The Crystal Exarch,https://fftcg.cdn.sewest.net/images/cards/full/13-133S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-133S_eg.jpg, Forward, Leader of the Crystarium,earth, 3, S, 7000, XIV, Opus XIII, 13-133S
+Y'shtola,https://fftcg.cdn.sewest.net/images/cards/full/13-134S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-134S_eg.jpg, Forward, Scion of the Seventh Dawn,earth, 6, S, 8000, XIV, Opus XIII, 13-134S
+Urianger,https://fftcg.cdn.sewest.net/images/cards/full/13-135S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-135S_eg.jpg, Forward, Scion of the Seventh Dawn,exburst, 2, S, 5000, XIV, Opus XIII, 13-135S
+Thancred,https://fftcg.cdn.sewest.net/images/cards/full/13-136S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-136S_eg.jpg, Forward, Scion of the Seventh Dawn,ability, 4, S, 8000, XIV, Opus XIII, 13-136S
+Innocence,https://fftcg.cdn.sewest.net/images/cards/full/13-137S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-137S_eg.jpg, Forward, Lightwarden,fire, 4, S, 9000, XIV, Opus XIII, 13-137S
+The Oracle of Light,https://fftcg.cdn.sewest.net/images/cards/full/13-138S_eg.jpg,https://fftcg.cdn.sewest.net/images/cards/thumb/13-138S_eg.jpg, Forward, Oracle of Light,light, 3, S, 5000, XIV, Opus XIII, 13-138S

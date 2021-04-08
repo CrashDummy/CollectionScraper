@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Boolean, Numeric
 from sqlalchemy.orm import relationship
 
-engine = create_engine('sqlite:///:memory:', echo=True)
+engine = create_engine('sqlite:///fftcq.db:', echo=True)
 Base = declarative_base()
 
 
@@ -20,7 +20,6 @@ class Type(Base):
     __tablename__ = 'types'
     id = Column(Integer, primary_key=True)
     name = Column(String)
-
 
 
 class Job(Base):
@@ -83,7 +82,7 @@ class Card(Base):
     name = Column(String)
     type = relationship("Type")
     job = Column(String)
-    element = Column(String)
+    element = relationship("Element")
     cost = Column(Integer)
     rarity = Column(String)
     power = Column(Integer)
