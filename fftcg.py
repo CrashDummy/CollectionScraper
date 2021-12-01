@@ -3,6 +3,7 @@ import sys
 import time
 import csv
 import copy
+import json
 
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException, \
@@ -17,7 +18,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 def getdriver(headless=True):
     # Setup chrome browser for selenium
-    driverpath = '/opt/WebDriver/bin/chromedriver'
+    driverpath = '/usr/local/bin/chromedriver'
 
     if headless:
         opts = Options()
@@ -78,7 +79,12 @@ def getCardText(link):
     eletype = elements[0].findAll("span", {"class": lambda L: L and L.startswith('icon ')})
 
     # eletype is a dictionary, simply get the 'class' and element [1]
-    card_dict['Element'] = eletype[0].get('class')[1]
+    # element could be empty
+    try:
+        card_dict['Element'] = eletype[0].get('class')[1]
+    except IndexError as ex:
+        logging.debug('Exception ' + str(ex))
+        card_dict['Element'] = ""
     return card_dict
 
 
@@ -196,12 +202,15 @@ for i in range(num_cards):
     # print(getCardTitle(soup) + " " + getCardText(soup)['Code'])
     logging.info(card['Title'], card['Code'])
 
+    # dump the card_list dictionary to json file
+    with open('card_list.json', 'w') as file:
+        file.write(json.dumps(card_list))  # use `json.loads` to do the reverse
+
     # click for next card
     next_button = clickXPath_fast(driver, next_button_xpath)
     time.sleep(0.5)
 
 # write data to csv file
-
 # use dictionary keys as csv header
 csv_columns = list(card)
 
