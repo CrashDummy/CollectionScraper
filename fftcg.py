@@ -167,7 +167,7 @@ driver.maximize_window()
 
 logging.info('setting up search button')
 # TODO Implement auto find xpath for search button
-submit_button_xpath = '//*[@id="browser"]/div[1]/div[3]/button' #'//button[@type="submit"]/span[@class="icon fas fa-search"]'
+submit_button_xpath = '//*[@id="browser"]/div[1]/div[3]/button'  #'//button[@type="submit"]/span[@class="icon fas fa-search"]'
 submit_button = clickXPath(driver, submit_button_xpath)
 
 # find and click on the first element
@@ -184,13 +184,13 @@ next_button_xpath = '//*[@id="browser"]/div[4]/div[1]/span[3]'
 card_page = BeautifulSoup(driver.page_source, 'html.parser')
 num_cards = int(getTotalCards(card_page))
 card_list = []
+card = {}
 
 for i in range(num_cards):
     # cook soup with driver
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     # setup new dictionary for the current card
-    card = {}
     card['Title'] = getCardTitle(soup)
     card['Image_full'] = getCardImg(soup)
     card['Image_thumb'] = card['Image_full'].replace('full', 'thumb')
