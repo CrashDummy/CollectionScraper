@@ -12,4 +12,4 @@ https://chromedriver.chromium.org/downloads
 ## Usage Notes
 1.  Update variable "driverpath" to the directory where the chromedriver is installed on your system
 2.  Set headless=True meaning the chromedriver will run in the background, set to False if you wish to see selemium in action. 
-3.  Wait 10 minutes (yes it does take a long time).
+3.  Run the fftcg.py script, get a coffee or tea (it usually takes 10mins).
