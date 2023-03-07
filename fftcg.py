@@ -12,18 +12,23 @@ from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 
 
 def getdriver(headless=True):
-    # Setup chrome browser for selenium
-    driverpath = '/usr/local/bin/chromedriver'
+    # Setup Chrome browser for selenium
+    if 'win' in sys.platform:
+        driverpath = 'C:\\Program Files\\chromedriver.exe'
+    elif 'darwin' or 'linux' in sys.platform:
+        driverpath = '/usr/local/bin/chromedriver'
+    else:
+        exit()
 
     if headless:
         opts = Options()
-        opts.headless = True
-        assert opts.headless  # Operating in headless mode
+        # opts.headless = True
+        opts.add_argument("--headless")  # Operating in headless mode
         opts.add_argument("--start-maximized")  # max windows
         driver = Chrome(options=opts, executable_path=driverpath)
     else:
@@ -105,7 +110,7 @@ def getTotalCards(link):
 def clickXPath_fast(driver, xpath):
     # click on an element on a website, without delay
     button = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.XPATH, xpath)))
+        ec.element_to_be_clickable((By.XPATH, xpath)))
     try:
         button.click()
     except StaleElementReferenceException as ex:
@@ -129,11 +134,11 @@ def clickXPath(driver, xpath):
         logging.debug('Exception ' + str(ex) + ' while trying click the button' + xpath +
                       ', trying to find element again')
         button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, xpath)))
+            ec.element_to_be_clickable((By.XPATH, xpath)))
 
         ignored_exceptions = (NoSuchElementException, StaleElementReferenceException,)
         button = WebDriverWait(driver, 10, ignored_exceptions=ignored_exceptions) \
-            .until(EC.presence_of_element_located((By.XPATH, xpath)))
+            .until(ec.presence_of_element_located((By.XPATH, xpath)))
         button.click()
     except TimeoutException as ex:
         logging.debug('Exception ' + str(ex) + ' while trying click the button' + xpath +
@@ -167,12 +172,13 @@ driver.maximize_window()
 
 logging.info('setting up search button')
 # TODO Implement auto find xpath for search button
-submit_button_xpath = '//*[@id="browser"]/div[1]/div[3]/button'  #'//button[@type="submit"]/span[@class="icon fas fa-search"]'
+submit_button_xpath = '//*[@id="browser"]/div[1]/div[3]/button'
+# '//button[@type="submit"]/span[@class="icon fas fa-search"]'
 submit_button = clickXPath(driver, submit_button_xpath)
 
 # find and click on the first element
 logging.info('setting up first element button')
-#time.sleep(1.0)
+# time.sleep(1.0)
 firstelement_button_xpath = '//*[@id="browser"]/div[3]/div[2]'
 firstelement_button = clickXPath(driver, firstelement_button_xpath)
 
