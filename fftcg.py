@@ -38,15 +38,17 @@ def getdriver(headless=True):
 
 def driverOpenTab(soupdriver):
     # open tab
-    soupdriver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 't')
     # You can use (Keys.CONTROL + 't') on other OSs
+    soupdriver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 't')
+    # soupdriver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 't')
     return
 
 
 def driverCloseTab(soupdriver):
     # close the tab
     # (Keys.CONTROL + 'w') on other OSs.
-    soupdriver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
+    soupdriver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 'w')
+    # soupdriver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
     return
 
 
@@ -116,7 +118,7 @@ def clickXPath_fast(driver, xpath):
     except StaleElementReferenceException as ex:
         logging.debug('Exception ' + str(ex) + ' while trying click the button' + xpath +
                       ', trying to find element again')
-        button = driver.find_element_by_xpath(xpath)
+        button = driver.find_element(By.XPATH, xpath)
         button.click()
     return button
 
@@ -125,7 +127,7 @@ def clickXPath(driver, xpath):
     # click on an element on a website, with delay
     logging.info('sleep 5 before searching')
     time.sleep(5)
-    button = driver.find_element_by_xpath(xpath)
+    button = driver.find_element(By.XPATH, xpath)
     try:
         logging.info('clicking button ' + xpath)
         button.click()
@@ -172,7 +174,7 @@ driver.maximize_window()
 
 logging.info('setting up search button')
 # TODO Implement auto find xpath for search button
-submit_button_xpath = '//*[@id="browser"]/div[1]/div[3]/button'
+submit_button_xpath = '/html/body/section/section/div/div[2]/div/div[1]/div[3]/button'
 # '//button[@type="submit"]/span[@class="icon fas fa-search"]'
 submit_button = clickXPath(driver, submit_button_xpath)
 
