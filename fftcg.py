@@ -1,9 +1,10 @@
-import logging
+import os
 import sys
 import time
 import csv
 import copy
 import json
+import logging
 
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException, \
@@ -18,21 +19,19 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 def getdriver(headless=True):
     # Setup Chrome browser for selenium
-    if 'win' in sys.platform:
-        driverpath = 'C:\\Program Files\\chromedriver.exe'
-    elif 'darwin' or 'linux' in sys.platform:
-        driverpath = '/usr/local/bin/chromedriver'
+    if sys.platform == 'win32':
+        driverpath = os.path.join('C:', 'Program Files', 'chromedriver.exe')
+    elif sys.platform in ['darwin', 'linux']:
+        driverpath = os.path.join('/', 'usr', 'local', 'bin', 'chromedriver')
     else:
         exit()
 
+    opts = Options()
     if headless:
-        opts = Options()
-        # opts.headless = True
         opts.add_argument("--headless")  # Operating in headless mode
-        opts.add_argument("--start-maximized")  # max windows
-        driver = Chrome(options=opts, executable_path=driverpath)
     else:
-        driver = Chrome(executable_path=driverpath)
+        opts.add_argument("--start-maximized")  # max windows
+    driver = Chrome(options=opts, executable_path=driverpath)
     return driver
 
 
@@ -40,7 +39,6 @@ def driverOpenTab(soupdriver):
     # open tab
     # You can use (Keys.CONTROL + 't') on other OSs
     soupdriver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 't')
-    # soupdriver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 't')
     return
 
 
@@ -48,7 +46,6 @@ def driverCloseTab(soupdriver):
     # close the tab
     # (Keys.CONTROL + 'w') on other OSs.
     soupdriver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 'w')
-    # soupdriver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
     return
 
 
@@ -77,7 +74,6 @@ def getCardText(link):
     # find all span tags with class 'items
     # for each item, get text and split them with the ':' and store it in a list
     img_text = [item.getText().split(':') for item in elements[0].find_all('tr')]
-    # img_text = [item.getText().split(':') for item in elements[0].find_all('span', {'class': 'item'})]
 
     # convert list to dictionary
     for i in img_text:
@@ -176,7 +172,6 @@ driver.maximize_window()
 logging.info('setting up search button')
 # TODO Implement auto find xpath for search button
 submit_button_xpath = '/html/body/section/section/div/div[2]/div/div[1]/div[3]/button'
-# '//button[@type="submit"]/span[@class="icon fas fa-search"]'
 submit_button = clickXPath(driver, submit_button_xpath)
 
 # find and click on the first element
