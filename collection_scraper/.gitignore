@@ -9,5 +9,5 @@
 *.csv
 
 ;;directories to ignore
-.idea/
+../.idea/
 venv/
