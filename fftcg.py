@@ -76,7 +76,8 @@ def getCardText(link):
     # elements datatype is ResultSet, must use elements[0] to use the find method
     # find all span tags with class 'items
     # for each item, get text and split them with the ':' and store it in a list
-    img_text = [item.getText().split(':') for item in elements[0].find_all('span', {'class': 'item'})]
+    img_text = [item.getText().split(':') for item in elements[0].find_all('tr')]
+    # img_text = [item.getText().split(':') for item in elements[0].find_all('span', {'class': 'item'})]
 
     # convert list to dictionary
     for i in img_text:
@@ -157,7 +158,7 @@ def clickXPath(driver, xpath):
 
 
 # setting up level of debugging; will print in console
-logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
+logging.basicConfig(stream=sys.stderr, level=logging.ERROR)
 
 url = 'https://fftcg.square-enix-games.com/en/card-browser'
 base_url = 'https://fftcg.square-enix-games.com/en/'
