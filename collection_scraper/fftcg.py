@@ -20,9 +20,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 def getdriver(headless=True):
     # Setup Chrome browser for selenium
     if sys.platform == 'win32':
-        driverpath = os.path.join('C:', 'Program Files', 'chromedriver.exe')
+        driver_path = os.path.join('C:', 'Program Files', 'chromedriver.exe')
     elif sys.platform in ['darwin', 'linux']:
-        driverpath = os.path.join('/', 'usr', 'local', 'bin', 'chromedriver')
+        driver_path = os.path.join('/', 'usr', 'local', 'bin', 'chromedriver')
     else:
         exit()
 
@@ -31,26 +31,26 @@ def getdriver(headless=True):
         opts.add_argument("--headless")  # Operating in headless mode
     else:
         opts.add_argument("--start-maximized")  # max windows
-    driver = Chrome(options=opts, executable_path=driverpath)
+    driver = Chrome(options=opts, executable_path=driver_path)
     return driver
 
 
-def driverOpenTab(soupdriver):
+def driverOpenTab(soup_driver):
     # open tab
     # You can use (Keys.CONTROL + 't') on other OSs
-    soupdriver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 't')
+    soup_driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 't')
     return
 
 
-def driverCloseTab(soupdriver):
+def driverCloseTab(soup_driver):
     # close the tab
     # (Keys.CONTROL + 'w') on other OSs.
-    soupdriver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 'w')
+    soup_driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.COMMAND + 'w')
     return
 
 
 def writeToHTML(filename, contents):
-    # helper function, dump broswer's current html content to file
+    # helper function, dump browser's current html content to file
     with open(filename + ".html", "w") as file:
         file.write(str(contents))
     return
